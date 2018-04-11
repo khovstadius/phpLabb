@@ -9,15 +9,17 @@ $log->pushHandler(new StreamHandler('greetings.log', Logger::INFO));
 
 
 
-$name = $_POST['name'];
-$age = $_POST['age'];
-$email = $_POST['email'];
+$name = $_GET['name'];
+$age = $_GET['age'];
+$email = $_GET['email'];
 
-$name2 = $argv[1];
-$log->info("Hello ". $name2 . $age . $email);
+
+
+//$name2 = $argv[1];
+$log->info( $name . $age . $email);
 ?>
 
-<!doctype html>
+<!DOCTYPE html>
 <html>
     <head>
         <title>Example form</title>
@@ -39,4 +41,5 @@ $log->info("Hello ". $name2 . $age . $email);
 		</p>
 		<hr>
 		<a href="labb1Html.html" class="btn btn-default">Back to the form</a>
-
+	  </body>
+	  </html>
