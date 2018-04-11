@@ -1,6 +1,6 @@
 {
     "name": "mau/testing",
-    "description": "Testar composer",
+    "description": "release 1.0.0",
     "type": "BSD",
     "require": {
         "catfan/medoo": "1.1",
