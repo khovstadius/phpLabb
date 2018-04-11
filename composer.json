@@ -1,6 +1,6 @@
 {
     "name": "mau/testing",
-    "description": "release 1.0.0",
+    "description": "release 1.0.0 fan",
     "type": "BSD",
     "require": {
         "catfan/medoo": "1.1",
