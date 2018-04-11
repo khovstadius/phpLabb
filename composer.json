@@ -1,0 +1,16 @@
+{
+    "name": "mau/testing",
+    "description": "Testar composer",
+    "type": "BSD",
+    "require": {
+        "catfan/medoo": "1.1",
+        "monolog/monolog": "^1.23"
+    },
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Kalle Hovstadius",
+            "email": "khovstadius@hotmail.com"
+        }
+    ]
+}
